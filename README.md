@@ -1,15 +1,15 @@
-# Bitcoin Direct
+# LCC|Pay
 
-Magento2. A Bitcoin payment method for the Magento2 ecommerce app using Bitcoin RPC API.
+A Litecoincash payment method for the Magento 2 ecommerce app using Litecoin Cash RPC API.
 
 ## Install with Composer as you go
 
-1. Go to Magento2 root folder
+1. Go to Magento 2 root folder
 
 2. Enter following commands to install module:
 
     ```bash
-    composer require faonni/module-bitcoin
+    composer require kasbrahan/module-litecoincash
     ```
    Wait while dependencies are updated.
 
@@ -18,6 +18,3 @@ Magento2. A Bitcoin payment method for the Magento2 ecommerce app using Bitcoin 
     ```bash
 	php bin/magento setup:upgrade
 	php bin/magento setup:static-content:deploy
-	
-Donation 
-14JuAJjKXaNEVNr88f5nnydbRrX2mTsxSQ
