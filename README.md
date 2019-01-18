@@ -8,13 +8,11 @@ A Litecoincash payment method for the Magento 2 ecommerce app using Litecoin Cas
 
 2. Enter following commands to install module:
 
-    ```bash
     composer require kasbrahan/module-litecoincash
     ```
    Wait while dependencies are updated.
 
 3. Enter following commands to enable module:
 
-    ```bash
 	php bin/magento setup:upgrade
 	php bin/magento setup:static-content:deploy
